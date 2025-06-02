@@ -96,7 +96,7 @@ class ReportAuto_Acquisto_API {
         // 4. Crea una sessione di pagamento Stripe
         try {
             require_once WP_PLUGIN_DIR . '/reportauto-acquisto-plugin/includes/stripe-php/init.php'; // Assicurati del percorso corretto
-            \Stripe\Stripe::setApiKey('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'); // *** RICONTROLLA LA TUA CHIAVE SEGRETA DI STRIPE ***
+            \Stripe\Stripe::setApiKey('ppppp'); // *** RICONTROLLA LA TUA CHIAVE SEGRETA DI STRIPE ***
 
             $line_items = [
                 [
@@ -232,7 +232,7 @@ class ReportAuto_Acquisto_API {
         // Crea una sessione di pagamento Stripe per 1 report
         try {
             require_once WP_PLUGIN_DIR . '/reportauto-acquisto-plugin/includes/stripe-php/init.php';
-            \Stripe\Stripe::setApiKey('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'); // *** RICONTROLLA LA TUA CHIAVE SEGRETA DI STRIPE ***
+            \Stripe\Stripe::setApiKey('pppp'); // *** RICONTROLLA LA TUA CHIAVE SEGRETA DI STRIPE ***
 
             $line_items = [
                 [
